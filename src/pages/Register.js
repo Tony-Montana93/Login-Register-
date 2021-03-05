@@ -4,6 +4,7 @@ import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import { InputText } from 'primereact/inputtext';
 import { Card } from 'primereact/card';
+import { Button } from 'primereact/button';
 
 function Register() {
 	return (
@@ -45,6 +46,7 @@ function Register() {
 						</div>
 					</div>
 				</div>
+				<Button label='Register' />
 			</Card>
 		</div>
 	);

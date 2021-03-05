@@ -7,6 +7,7 @@ import 'primeflex/primeflex.css';
 import { InputText } from 'primereact/inputtext';
 import { Card } from 'primereact/card';
 import { Checkbox } from 'primereact/checkbox';
+import { Button } from 'primereact/button';
 
 function Login() {
 	return (
@@ -38,6 +39,7 @@ function Login() {
 						Remember Me
 					</label>
 				</div>
+				<Button label='Log in' />
 			</Card>
 		</div>
 	);
